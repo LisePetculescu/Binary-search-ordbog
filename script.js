@@ -1,5 +1,3 @@
-
-
 window.addEventListener("load", start);
 
 const endpoint = "http://localhost:8080/ordbogen";
@@ -10,7 +8,6 @@ function start() {
   getSizes();
 
   document.getElementById("search-form").addEventListener("submit", dictionarySearch);
-
 }
 
 async function getSizes() {
@@ -92,14 +89,12 @@ async function search(searchWord) {
       localMin = middle + 1;
     }
 
-
     // used while testing so i didn't get an infinite loop
     // if (iterations >= 21) {
     //     console.error("wow");
     //   return;
     // }
   }
-
 
   // returns -1 if the search values isn't found in the array
   return -1;
