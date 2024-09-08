@@ -92,14 +92,14 @@ async function search(searchWord) {
       localMin = middle + 1;
     }
 
+
+    // used while testing so i didn't get an infinite loop
     // if (iterations >= 21) {
     //     console.error("wow");
     //   return;
     // }
   }
 
-  // counting how many tries it takes to find what we're looking for in the sorted array
-  console.log(`Iterations: ${iterations}`);
 
   // returns -1 if the search values isn't found in the array
   return -1;
