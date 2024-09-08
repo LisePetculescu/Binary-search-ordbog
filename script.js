@@ -1,4 +1,4 @@
-// import binarySearch from "./binarysearch.js";
+
 
 window.addEventListener("load", start);
 
@@ -10,7 +10,7 @@ function start() {
   getSizes();
 
   document.getElementById("search-form").addEventListener("submit", dictionarySearch);
-  //   dictionarySearch();
+
 }
 
 async function getSizes() {
