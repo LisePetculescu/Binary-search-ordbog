@@ -1,0 +1,26 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Binary Search i Ordbog</title>
+  </head>
+  <body>
+    <h1>Søg i den danske ordbog</h1>
+    <form id="search-form">
+        <label for="search-input">Søg på ord:
+        <input type="text" name="search-input" id="search-input">
+        </label>
+        <button type="submit">Søg</button>
+          <div id="total-req-and-time">Server requests: <span id="iterations">0</span> - Total time: <span id="total-time">unknown</span> sek.</div>
+    </form>
+
+    <div id="show-word">
+      
+
+    </div>
+
+    <script type="module" src="script.js"></script>
+    <script type="module" src="binarysearch.js"></script>
+  </body>
+</html>
